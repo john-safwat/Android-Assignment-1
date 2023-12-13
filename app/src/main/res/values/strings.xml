@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Android-Assignment-1</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_logo_image">Facebook Logo Image</string>
+    <string name="email_or_phone_name">Email or Phone Name</string>
+    <string name="title_activity_facebook_login">FacebookLoginActivity</string>
+    <string name="title_activity_facebook_login_activiet">FacebookLoginActiviet</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up_for_facebook">Sign Up For Facebook</string>
+    <string name="help_center">Help Center</string>
 </resources>
