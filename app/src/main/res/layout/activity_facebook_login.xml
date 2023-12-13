@@ -4,6 +4,112 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FacebookLoginActivity">
+    tools:context=".FacebookLoginActivity"
+    android:background="@color/blue"
+    >
+    <!--    facebook name (facebook logo)    -->
+    <ImageView
+        android:id="@+id/facebook_logo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/facebook_logo_image"
+        android:scaleType="centerInside"
+        android:src="@drawable/facebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/email_text_field"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <!--    the text field of to enter the name and password    -->
+    <EditText
+        android:id="@+id/email_text_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:autofillHints="true"
+        android:background="@drawable/top_text_field_background"
+        android:hint="@string/email_or_phone_name"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/facebook_logo"
+        app:layout_constraintBottom_toTopOf="@id/password_text_field"
+        android:textSize="18sp"
+    />
+
+    <EditText
+        android:id="@+id/password_text_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:autofillHints="true"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bottom_text_field_background"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_text_field"
+        app:layout_constraintBottom_toTopOf="@id/login_button"
+        android:textSize="18sp"
+    />
+
+    <!--    login button -->
+    <Button
+        android:id="@+id/login_button"
+        android:text="@string/login"
+        android:padding="10dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password_text_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:id="@+id/white_space"
+        app:layout_constraintTop_toBottomOf="@id/login_button"
+        app:layout_constraintBottom_toTopOf="@id/sign_up_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"/>
+    <!--    bottom text buttons -->
+
+    <TextView
+        android:id="@+id/sign_up_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:text="@string/sign_up_for_facebook"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/help_center"
+        app:layout_constraintTop_toBottomOf="@id/white_space"/>
+
+    <TextView
+        android:id="@+id/help_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/help_center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
