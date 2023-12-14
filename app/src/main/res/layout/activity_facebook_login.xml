@@ -79,12 +79,14 @@
 
     <Space
         android:id="@+id/white_space"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/login_button"
         app:layout_constraintBottom_toTopOf="@id/sign_up_button"
         android:layout_width="wrap_content"
         android:layout_height="0dp"/>
-    <!--    bottom text buttons -->
 
+    <!--    bottom text buttons -->
     <TextView
         android:id="@+id/sign_up_button"
         android:layout_width="wrap_content"

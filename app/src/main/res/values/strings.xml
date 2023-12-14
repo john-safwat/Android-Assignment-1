@@ -9,4 +9,6 @@
     <string name="login">Login</string>
     <string name="sign_up_for_facebook">Sign Up For Facebook</string>
     <string name="help_center">Help Center</string>
+    <string name="this_image_of_user_profile">This image of User Profile</string>
+    <string name="user_name">Unblast</string>
 </resources>
