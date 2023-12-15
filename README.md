@@ -7,3 +7,6 @@
 
 ## First Task Facebook Login Page 
 ![facebook Image](https://github.com/john-safwat/Android-Assignment-1/blob/master/Screenshot%202023-12-13%20212850.png?raw=true)
+
+## Second Task Facebook Post 
+![facebook post image](https://github.com/john-safwat/Android-Assignment-1/blob/master/Screenshot%202023-12-15%20132052.png?raw=true)
