@@ -11,4 +11,14 @@
     <string name="help_center">Help Center</string>
     <string name="this_image_of_user_profile">This image of User Profile</string>
     <string name="user_name">Unblast</string>
+    <string name="time">2 hrs .</string>
+    <string name="world_map_icon">world map icon</string>
+    <string name="dots_list">Dots List</string>
+    <string name="buckle_up_because_change_is_coming_to_wordpress">Buckle up, because change is coming to Wordpress</string>
+    <string name="http_unblast_com_color_schemes">http://unblast.com/color-schemes</string>
+    <string name="_12">12</string>
+    <string name="_1_share">1 Share</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
 </resources>
