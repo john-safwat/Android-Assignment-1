@@ -77,29 +77,19 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"/>
 
-    <Space
-        android:id="@+id/white_space"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/login_button"
-        app:layout_constraintBottom_toTopOf="@id/sign_up_button"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"/>
 
     <!--    bottom text buttons -->
     <TextView
         android:id="@+id/sign_up_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="bottom"
         android:layout_marginBottom="20dp"
         android:text="@string/sign_up_for_facebook"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/help_center"
-        app:layout_constraintTop_toBottomOf="@id/white_space"/>
+        app:layout_constraintBottom_toTopOf="@id/help_center"/>
 
     <TextView
         android:id="@+id/help_center"
